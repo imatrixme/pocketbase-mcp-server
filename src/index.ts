@@ -197,7 +197,7 @@ class PocketBaseServer {
               isAdmin: {
                 type: 'boolean',
                 description: 'Whether to authenticate as an admin (uses _superusers collection)',
-                default: false
+                default: true
               }
             },
             required: ['email', 'password'],
